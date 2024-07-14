@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "example" {
   bucket = "my-tf-test-kash-terraform"
 
   tags = {
-    Name        = "My bucket-terraform"
+    Name        = "My bucket-terraform1"
     Environment = "Dev"
   }
 }
