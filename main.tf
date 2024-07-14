@@ -13,10 +13,10 @@ resource "aws_instance" "web" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
+  bucket = "my-tf-test-kash-terraform"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket-terraform"
     Environment = "Dev"
   }
 }
