@@ -12,6 +12,11 @@ resource "aws_instance" "web" {
   }
 }
 
-resource "aws_s3_bucket" "s3" {
-  bucket = "terraform-experiments"
+resource "aws_s3_bucket" "example" {
+  bucket = "my-tf-test-bucket"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
 }
