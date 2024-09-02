@@ -8,7 +8,7 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "ansible-server"
+    Name = "ansible-server22"
   }
 }
 
