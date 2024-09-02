@@ -1,6 +1,4 @@
-provider "aws" {
-  region = "me-south-1" # Change to your desired region
-}
+
 
 
 
