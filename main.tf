@@ -8,7 +8,7 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "Kashif"
+    Name = "ansible-server"
   }
 }
 
@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "example" {
   bucket = "my-tf-test-kash-terraform"
 
   tags = {
-    Name        = "My bucket-terraform1"
+    Name        = "My bucket-terraform2"
     Environment = "Dev"
   }
 }
